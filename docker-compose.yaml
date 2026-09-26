@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:16
+    container_name: bank-cli-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: bankadmin
+      POSTGRES_PASSWORD: changeme
+      POSTGRES_DB: bank_cli
+    ports:
+      - "5432:5432"
+    volumes:
+      - bank_cli_data:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d
+
+volumes:
+  bank_cli_data:

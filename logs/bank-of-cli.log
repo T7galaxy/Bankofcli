@@ -1,0 +1,8 @@
+2026-09-25 10:45:29 [INFO] c.B.service.impl.AccountServiceImpl - Account 1954 withdrew 300
+2026-09-25 10:57:38 [ERROR] c.B.service.impl.AccountServiceImpl - Login failed: incorrect PIN entered for 1954
+2026-09-25 10:58:33 [INFO] c.B.service.impl.AccountServiceImpl - Account 1954 withdrew 400
+2026-09-25 11:02:17 [ERROR] c.B.service.impl.AccountServiceImpl - Login failed: incorrect PIN entered for 1954
+2026-09-25 11:02:47 [INFO] c.B.service.impl.AccountServiceImpl - Account 1954 withdrew 90
+2026-09-25 18:48:20 [INFO] c.B.service.impl.AccountServiceImpl - Account 1954 withdrew 3000
+2026-09-25 19:02:30 [INFO] c.B.service.impl.AccountServiceImpl - Account 1970 withdrew 30.00
+2026-09-25 19:04:56 [INFO] c.B.service.impl.AccountServiceImpl - Account 1970 withdrew 30.00
